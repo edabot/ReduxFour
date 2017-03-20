@@ -5,7 +5,11 @@ class PostsNew extends Component {
     render(){
         return (
             <div>
-                Create form
+                <form onSubmit={}>
+                    Title:
+                    Categories:
+                    Contents:
+                </form>
             </div>
         )
     }
