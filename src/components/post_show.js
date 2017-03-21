@@ -34,7 +34,7 @@ class PostShow extends Component {
                 <h3>{this.props.post.title} </h3>
                 <h6>Categories: {this.props.post.categories}</h6>
                 <p>{this.props.post.content}</p>
-                <div onClick={this.deletePost.bind(this)}>delete</div>
+                <button className="btn btn-danger" onClick={this.deletePost.bind(this)}>delete</button>
             </div>
         );
     }
